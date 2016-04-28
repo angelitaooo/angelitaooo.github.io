@@ -1,3 +1,48 @@
 body {
 	font-family: 'Poppins', sans-serif;
 }
+
+/*header*/
+
+.header {
+	background-color: #03294C;
+	color: #F2F2EF;
+}
+span {
+	color:#BA1160;
+}
+.header a{
+	color: #F2F2EF;
+}
+
+/*jumbotron*/
+.jumbotron {
+	background: url(/images/piano.jpg) no-repeat center center ; 
+	height: 500px;
+
+}
+/*projects*/
+
+.projects {
+	background-color: #F2F2EF;
+}
+
+.projects .row {
+	margin-bottom: 35px;
+}
+
+.projects h1 {
+	text-align: center;
+	margin: 50px;
+}
+
+.projects img {
+	float:right;
+}
+
+
+/*footer*/
+
+.footer {
+	background-color: #03294C;
+}
