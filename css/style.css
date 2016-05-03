@@ -5,9 +5,8 @@ body {
 /*header*/
 
 .header {
-	background-color: #03294C;
+	background-color: #000;
 	color: #F2F2EF;
-	height: 100px;
 }
 span {
 	color:#BA1160;
@@ -17,13 +16,15 @@ span {
 	font-size: 20px;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-	background-color: #03294C;
+	background-color: #000;
 	color:#BA1160;
 }
 
 .header ul {
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
+
 
 .header .row {
 	margin-top: 10px;
@@ -32,15 +33,30 @@ span {
 /*jumbotron*/
 .jumbotron {
 	background: url(/images/piano.jpg) no-repeat center center; 
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain;
-	height: 700px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 90vh;
+	margin-bottom: 0;
+	padding: 0;
+	position: relative;
 }
 
 .jumbotron h1 {
+	color:#F2F2EF;
+	font-size: 90px;
+	margin-top: 30vh;
 	text-align: center;
+	text-transform: uppercase;
+}
+
+#overlay {
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	font-weight: 800;
 }
 
 /*projects*/
@@ -67,5 +83,12 @@ span {
 /*footer*/
 
 .footer {
-	background-color: #03294C;
+	background-color: #000;
 }
+.footer ul {
+	list-style: none;
+}
+.footer a {
+	color: #F2F2EF;
+}
+
