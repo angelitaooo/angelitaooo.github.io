@@ -92,3 +92,11 @@ span {
 	color: #F2F2EF;
 }
 
+.footer a i {
+	color: #fff;
+}
+.footer .container {
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
