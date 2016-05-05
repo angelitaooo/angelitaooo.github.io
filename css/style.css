@@ -100,3 +100,44 @@ span {
     padding-bottom: 15px;
 }
 
+
+			/*ABOUT ME*/
+
+/*about me section*/
+.about-me h1 {	
+	margin-bottom: 30px;
+}
+
+.about-me {
+	background-color: #BA1160;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:#F2F2EF;
+}
+
+.about-me p {
+	font-size: 19px;
+}
+
+img {
+	height: 250px;
+	border-radius: 100%;
+	float: right;	
+}
+
+/*skills section*/
+.skills {
+	background-color: #F2F2EF;
+}
+.skills h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color:#BA1160;
+}
+
+.skills p {
+	font-size: 19px;
+	margin-bottom: 50px;
+}
+
+
