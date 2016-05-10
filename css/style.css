@@ -150,13 +150,16 @@ body {
     margin-top: 50px;
     margin-bottom: 30px;
 }
-
+.skill-item {
+    margin-bottom: 50px;
+}
 .skills p {
     font-size: 19px;
-    margin-bottom: 50px;
+
 }
 .progress {
     box-shadow: inset 0 2px 13px rgba(0, 0, 0, .2);
+    margin-bottom: 0;
 }
 .progress-bar {
     background-image: linear-gradient(to bottom, #BA1160 0%, #e86f97 100%);
@@ -173,9 +176,29 @@ body {
         font-size: 8vh;
         letter-spacing: -3px;
     }
+    .about-me img {
+        display: block;
+        float: none;
+        margin-right: auto;
+        margin-left: auto
+    }
 }
 
 @media (max-width: 481px) {
+    .header ul {
+        width: 100%;
+    }
+
+    .nav li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .jumbotron h1 {
+        font-size: 9vh;
+        margin-top: 15vh;
+    }
+
     .projects p {
         font-size: 6vh;
     }
