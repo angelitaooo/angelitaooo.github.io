@@ -27,7 +27,11 @@ body {
 .nav ul {
     float: right;
 }
-.nav > li > a:hover, .nav > li > a:focus {
+
+.nav > li.active > a:hover,
+.nav > li.active > a,
+.nav > li > a:hover,
+.nav > li > a:focus {
     background-color: #000;
     color:#BA1160;
 }
