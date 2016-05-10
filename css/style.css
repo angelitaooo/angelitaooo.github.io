@@ -22,6 +22,11 @@ body {
     color: #F2F2EF;
     font-size: 20px;
 }
+
+.nav, 
+.nav ul {
+    float: right;
+}
 .nav > li > a:hover, .nav > li > a:focus {
     background-color: #000;
     color:#BA1160;
@@ -51,7 +56,7 @@ body {
 
 .jumbotron h1 {
     color:#F2F2EF;
-    font-size: 90px;
+    font-size: 12vh;
     margin-top: 30vh;
     text-align: center;
     text-transform: uppercase;
@@ -71,16 +76,16 @@ body {
 }
 .projects h1 {
     text-align: center;
-    margin: 50px;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
     color: #BA1160;
-    font-size: 50px;
+    font-size: 8vh;
     text-transform: uppercase;
     font-weight: 800;
 }
 .projects p {
-    font-size: 50px;
-    margin-bottom: 60px;
-    margin-top: 60px;
+    font-size: 7vh;
+    margin-bottom: 7vh;
     text-align: center;
 }
 
@@ -155,5 +160,24 @@ body {
 }
 .progress-bar {
     background-image: linear-gradient(to bottom, #BA1160 0%, #e86f97 100%);
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 10vh;
+        margin-top: 15vh;
+    } 
+    .projects h1 {
+        font-size: 8vh;
+        letter-spacing: -3px;
+    }
+}
+
+@media (max-width: 481px) {
+    .projects p {
+        font-size: 6vh;
+    }
 }
 
