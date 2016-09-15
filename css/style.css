@@ -1,0 +1,210 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*header*/
+
+.header {
+    background-color: #000;
+    color: #F2F2EF;;
+}
+.header h1 a {
+    color: #F2F2EF;
+}
+
+.header h1 a:hover {
+    text-decoration: none;
+}
+.header span {
+    color:#BA1160;
+}
+.header .nav a{
+    color: #F2F2EF;
+    font-size: 20px;
+}
+
+.nav, 
+.nav ul {
+    float: right;
+}
+
+.nav > li.active > a:hover,
+.nav > li.active > a,
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #000;
+    color:#BA1160;
+}
+
+.header ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header .row {
+    margin-top: 10px;
+}
+
+/*jumbotron*/
+.jumbotron {
+    background: url(/images/piano.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 90vh;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron h1 {
+    color:#F2F2EF;
+    font-size: 12vh;
+    margin-top: 30vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.5);
+    font-weight: 800;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+/*projects*/
+.projects {
+    background-color: #F2F2EF;
+}
+.projects h1 {
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    color: #BA1160;
+    font-size: 8vh;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.projects p {
+    font-size: 7vh;
+    margin-bottom: 7vh;
+    text-align: center;
+}
+
+.projects .row {
+    margin-bottom: 35px;
+}
+
+.projects img {
+    float:right;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #000;
+}
+.footer .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer ul {
+    list-style: none;
+}
+.footer a {
+    color: #F2F2EF;
+}
+
+.footer a i {
+    color: #fff;
+}
+
+/*ABOUT ME*/
+
+/*about me section*/
+.about-me {
+    background-color: #BA1160;
+    color:#F2F2EF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-me h1 {  
+    margin-bottom: 30px;
+}
+
+.about-me p {
+    font-size: 19px;
+}
+
+.about-me img {
+    border-radius: 100%;
+    float: right;
+    height: 250px;  
+}
+
+/*skills section*/
+.skills {
+    background-color: #F2F2EF;
+}
+.skills h1 {
+    color:#BA1160;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.skill-item {
+    margin-bottom: 50px;
+}
+.skills p {
+    font-size: 19px;
+
+}
+.progress {
+    box-shadow: inset 0 2px 13px rgba(0, 0, 0, .2);
+    margin-bottom: 0;
+}
+.progress-bar {
+    background-image: linear-gradient(to bottom, #BA1160 0%, #e86f97 100%);
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 10vh;
+        margin-top: 15vh;
+    } 
+    .projects h1 {
+        font-size: 8vh;
+        letter-spacing: -3px;
+    }
+    .about-me img {
+        display: block;
+        float: none;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+@media (max-width: 481px) {
+    .header ul {
+        width: 100%;
+    }
+
+    .nav li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .jumbotron h1 {
+        font-size: 9vh;
+        margin-top: 15vh;
+    }
+
+    .projects p {
+        font-size: 6vh;
+    }
+}
+
